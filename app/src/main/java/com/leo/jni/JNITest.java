@@ -7,7 +7,6 @@ package com.leo.jni;
  */
 public class JNITest {
     static {
-
 //        System.load("/Users/lihua/Learn/Android/JNI/app/src/main/java/jni/libHelloWorld.so");
         System.loadLibrary("HelloWorld");
         ///Users/lihua/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
