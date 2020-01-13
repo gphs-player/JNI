@@ -6,12 +6,14 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
     static {
         System.loadLibrary("jni-test");
+        System.loadLibrary("leo");
     }
 
     public static void methodCalledByJni(String msgFromJni){

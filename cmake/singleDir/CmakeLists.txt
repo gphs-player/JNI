@@ -1,0 +1,5 @@
+project(Cmake)
+
+aux_source_directory(. SOURCE)
+
+add_executable(welcome ${SOURCE})
