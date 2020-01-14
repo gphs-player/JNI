@@ -7,6 +7,7 @@
 JNIEXPORT jstring JNICALL Java_com_leo_jni_JNITest_get(JNIEnv *env, jobject thiz){
 
     printf("invoke get from C\n");
+
     return (*env) -> NewStringUTF(env,"Hello From JNI");
 }
 

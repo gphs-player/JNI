@@ -1,2 +1,4 @@
 singleDir/build
 multiDir/build
+buildLib/build
+testLib/build

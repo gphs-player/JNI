@@ -1,0 +1,6 @@
+aux_source_directory(. SOURCE)
+
+add_executable(welcome ${SOURCE})
+
+#添加链接库
+target_link_libraries(welcome WELCOMELIB)

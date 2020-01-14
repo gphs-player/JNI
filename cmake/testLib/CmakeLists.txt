@@ -1,0 +1,9 @@
+project(HelloLib)
+
+ADD_EXECUTABLE(main main.cpp)
+
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/funs)
+
+target_link_libraries(main ${CMAKE_CURRENT_SOURCE_DIR}/libs/libWELCOMELIB.dylib)
+
+

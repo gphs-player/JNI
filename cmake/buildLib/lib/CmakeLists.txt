@@ -1,0 +1,5 @@
+aux_source_directory(. MODULE)
+
+add_library(WELCOMELIB SHARED ${MODULE})
+
+INSTALL(FILES welcome.h DESTINATION include/hello)
